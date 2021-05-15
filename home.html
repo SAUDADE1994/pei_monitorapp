@@ -1,0 +1,48 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        .screen {
+            height: 100%;
+            width: 100%;
+        }
+
+        .slides {
+            object-fit: contain;
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .slides-hidden {
+            display: none;
+        }
+    </style>
+
+    <script src="update.js"></script>
+</head>
+    <body>
+    <div>
+        <img class='slides slides-hidden' src='downloads/image1.jpg' />
+<img class='slides slides-hidden' src='downloads/377251.png' />
+<img class='slides slides-hidden' src='downloads/image3.jpg' />
+<img class='slides slides-hidden' src='downloads/142356.jpg' />
+<img class='slides slides-hidden' src='downloads/203513.png' />
+
+        <video id="my-video" class="slides slides-hidden" autoplay>
+    <source src="downloads/earth.mp4" type="video/mp4">
+</video>    
+
+    </div>
+    </body>
+    </html>
+    

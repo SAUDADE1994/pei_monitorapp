@@ -11,7 +11,7 @@ addEventListener("load", () => {
         if(isImage(slides[(index+1) % count])) {
           slides[(index++) % count].classList.add(classHide);
           slides[index % count].classList.remove(classHide);
-          setTimeout(nextSlide, 3000);
+          setTimeout(nextSlide, 5000);
           console.log("imagem");
         } // If its a video
         else {

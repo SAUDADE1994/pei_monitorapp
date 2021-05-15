@@ -2,7 +2,8 @@ SLEEP_TIME = 15
 ESTABLISH = 1
 
 PATH = "downloads"
-ADDRESS = "http://peig2.westeurope.cloudapp.azure.com/api/documents/?format=json&fbclid=IwAR0G9JxR9jB-kRuR8oUf-L9Kgt6AQ8feoXFNC1_aan3h4Ed9ZXQSMpfwcSU"
+CONTENT_ADDRESS = "http://peig2.westeurope.cloudapp.azure.com/api/documents/?format=json&fbclid=IwAR0G9JxR9jB-kRuR8oUf-L9Kgt6AQ8feoXFNC1_aan3h4Ed9ZXQSMpfwcSU"
+USER_INPUT_ADDRESS = "http://peig2.westeurope.cloudapp.azure.com/api/agentupdates/3/?fbclid=IwAR2sSx1hJj7gKveB3MhrZRH0OHq37nLUMXEt8912J65e8ac3ugMOJFDz0Vc"
 
 FILENAME = "home.html"
 #FILENAME = r"C:\Users\gabri\Desktop\PEI\tests\home.html"
